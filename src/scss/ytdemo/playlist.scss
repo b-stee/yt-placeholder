@@ -1,0 +1,41 @@
+table {
+    margin: 0;
+}
+
+img.yt-thumb {
+    width: 17vh;
+}
+
+@include breakpoint-max($bp-xlarge) {
+    img.yt-thumb {
+        width: 12vw;
+    }
+}
+
+@include breakpoint-max($bp-large) {
+    img.yt-thumb {
+        width: 15vw;
+    }
+}
+
+@include breakpoint-max($bp-medium) {
+    img.yt-thumb {
+        width: 20vw;
+    }
+}
+
+@include breakpoint-max($bp-small) {
+    img.yt-thumb {
+        width: 30vw;
+    }
+}
+
+td.yt-thumb {
+    padding: 3;
+}
+
+tr.yt-thumb:hover {
+    cursor: pointer;
+    filter: brightness(0.9);
+}
+
